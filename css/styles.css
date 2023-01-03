@@ -210,7 +210,7 @@ body {
   gap: 25px;
 }
 .features-icon {
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 264px;
@@ -222,10 +222,10 @@ body {
 .strategy-item {
 }
 .strategy-icon {
-  margin: 24px 100px;
 }
 .strategy-subtitle {
   font-weight: 500;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
@@ -540,15 +540,12 @@ body {
   width: calc((100% - 48px) / 3);
 }
 .page-item:hover {
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .page-link {
-
 }
 .page-link:hover {
-
 }
 
 .page-title {
